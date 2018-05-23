@@ -1,0 +1,12 @@
+2018-03-16 14:54:43,176DEBUG:__main__:new connection('127.0.0.1', 55706)
+2018-03-16 14:54:43,176ERROR:tornado.application:Error in connection callback
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tornado/tcpserver.py", line 295, in _handle_connection
+    future = self.handle_stream(stream, address)
+  File "torEchoServer.py", line 17, in handle_stream
+    self._read_line()
+  File "torEchoServer.py", line 20, in _read_line
+    stream.read_until('\n', self._handle_read)
+NameError: global name 'stream' is not defined
+2018-03-16 14:55:30,361DEBUG:__main__:new connection('127.0.0.1', 55708)
+2018-03-16 14:55:50,438DEBUG:__main__:new connection('127.0.0.1', 55710)

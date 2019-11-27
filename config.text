@@ -1,0 +1,7 @@
+# config file 1.1
+
+port = 10001 # port to connect
+host = localhost
+user = pyuser
+dbname = pydb1
+   #end section
